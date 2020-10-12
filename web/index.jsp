@@ -15,10 +15,67 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
-  <title>Hello, world!</title>
+  <title>Quiz Lab 05</title>
 </head>
 <body>
-<h1>Hello, world!</h1>
+
+
+<div class="card" style="width: 18rem;">
+  <div class="card-body">
+    <h5 class="card-title">First Name</h5>
+    <label for="gender">Enter First Name:</label>
+    <input type="text" id="fname" name="fname">
+
+  </div>
+</div>
+
+<div class="card" style="width: 18rem;">
+  <div class="card-body">
+    <h5 class="card-title">Last Name</h5>
+    <label for="gender">Enter Last  Name:</label>
+    <input type="text" id="lname" name="lname">
+
+  </div>
+</div>
+
+
+<div class="card" style="width: 18rem;">
+  <div class="card-body">
+    <h5 class="card-title">Age</h5>
+    <label for="Age">Enter Age:</label>
+    <input type="text" id="age" name="age">
+
+  </div>
+
+
+<div class="card" style="width: 18rem;">
+  <div class="card-body">
+    <h5 class="card-title">City</h5>
+    <label for="city">Enter City:</label>
+    <input type="text" id="city" name="city"><br><br>
+
+  </div>
+</div>
+
+
+<div class="card" style="width: 18rem;">
+  <div class="card-body">
+    <h5 class="card-title">Gender</h5>
+    <label for="gender">Enter Gender:</label>
+    <input type="text" id="gender" name="gender"><br><br>
+
+  </div>
+</div>
+
+
+<div class="card">
+  <h5 class="card-header"></h5>
+  <div class="card-body">
+    <a href="#" class="btn btn-primary">Submit</a>
+  </div>
+</div>
+
+
 
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
